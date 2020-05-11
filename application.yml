@@ -1,14 +1,17 @@
 spring:
   profiles:
     active:
-    - dev
+      - dev
+
 ---
 spring:
   profiles: dev
-    application:
-      name: spring-cloud-config-kafeng-dev
+  application:
+      name: spring-cloud-config-dev
+
 ---
 spring:
   profiles: test
-    application:
-      name: spring-cloud-config-kafeng-test
+  application:
+    name: spring-cloud-config-test
+
