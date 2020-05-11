@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-dept-hystrix-dashboard" />
+        <module name="spring-cloud-config-dept-client-8001" />
+        <module name="spring-cloud-dept-8002" />
+        <module name="spring-cloud-consumer-dept-80" />
+        <module name="spring-cloud-config-euraka-client-7001" />
+        <module name="spring-cloud-config-client-3355" />
+        <module name="spring-cloud-entry" />
+        <module name="spring-cloud-eureka-7003" />
+        <module name="spring-cloud-eureka-7002" />
+        <module name="spring-cloud-eureka-7001" />
+        <module name="spring-cloud-zuul-gateway-9527" />
+        <module name="spring-cloud-config-server-3344" />
+        <module name="spring-cloud-dept-hystrix-8001" />
+        <module name="spring-cloud-dept-8003" />
+        <module name="spring-cloud-consumer-fegin" />
+        <module name="spring-cloud-dept-8001" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

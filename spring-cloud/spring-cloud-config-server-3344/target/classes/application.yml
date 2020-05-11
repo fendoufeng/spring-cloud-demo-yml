@@ -1,0 +1,16 @@
+#git@github.com:fendoufeng/spring-cloud-demo-yml.git
+
+server:
+  port: 3344
+
+spring:
+  application:
+    name: spring-cloud-config
+  cloud:
+    config:
+      server:
+        git:
+         # uri: git@github.com:fendoufeng/spring-cloud-demo-yml.git #GitHub上面的git仓库名字
+          uri: https://github.com/fendoufeng/spring-cloud-demo-yml.git
+
+
